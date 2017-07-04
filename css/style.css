@@ -1,0 +1,166 @@
+*{
+	margin: 0 auto;
+}
+
+
+.contenedor{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.header{
+	padding: 20px;
+	height: 660px;
+	background: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+	.logo{
+		font-family: "montserrat";
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 25px;
+		color: #fff;
+		text-align: center;
+	}
+	.menu{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: #fff;
+	}
+
+		.items{
+		display: inline-flex;
+		list-style: none;
+		text-transform: uppercase;
+		font-family: 'montserrat';
+		font-size: 12px;
+		color: #fff;
+		}
+			.items li{
+				margin: 0 10px 0 10px;
+			}
+				.items li a{
+					text-decoration: none;
+    				color: #fff;
+				}
+				.items li a:hover{
+    				color: #007FFF;
+				}
+				
+
+
+	.texto-principal{
+		display: flex;
+		height: 500px;
+		justify-content: center;
+		align-items: center;
+	}
+		h1{
+			font-family: "montserrat";
+			text-transform: uppercase;
+			font-weight: 900;
+			font-size: 56px;
+			color: #fff;
+			text-align: center;
+
+		}	
+
+#sobre-mi{
+	padding: 40px;
+	text-align: center;
+}
+	#sobre-mi .avatar{
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+		margin: 20px;
+	}
+
+	#sobre-mi h2{
+		font-family: "montserrat";
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 22px;
+		color: #000;
+		text-align: center;
+	}
+
+	#sobre-mi p{
+		font-family: "montserrat";
+		font-weight: 400;
+		font-size: 13px;
+		color: #000;
+		text-align: center;
+		padding: 20px;
+		line-height: 2;
+	}
+
+#servicios{
+	padding: 20px;
+	height: 610px;
+	background: url(../img/servicios-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}	
+	#servicios .contenedor{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 610px;
+	}
+		.servicio{
+			width: 300px;
+			height: 300px;
+			background-color: #fff;
+			/* box-shadow: 1px 1px 1px #999;*/
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			font-family: 'montserrat'
+		}
+		
+
+			.servicio h3{
+				font-size: 17px;
+				text-transform: uppercase;
+				font-weight: 500;
+				text-align: center;
+				padding: 10px 0 0 0;
+			}
+
+			.servicio p{
+				font-size: 13px;
+				font-weight: 300;
+				text-align: center;
+				padding: 10px;
+			}
+
+#contacto{
+	padding: 20px;
+	height: 316px;
+}
+	#contacto .contenedor{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+footer{
+	background-color: #000;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	footer p{
+		color: #fff;
+		font-family: 'montserrat';
+		font-size: 13px;
+		font-weight: 300;
+
+	}
